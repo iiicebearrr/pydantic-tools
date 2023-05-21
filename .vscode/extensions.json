@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "redjue.git-commit-plugin",
+        "github.copilot",
+        "magicstack.magicpython",
+        "ms-python.python",
+        "ms-python.black-formatter"
+    ]
+}
