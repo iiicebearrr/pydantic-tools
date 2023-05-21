@@ -1,9 +1,7 @@
-import traceback
-import time
-from itertools import chain
-from rich import print
 from pygoogletranslation import Translator
-from src.i18n.locales.templates import get_pydantic_errors_code_templates
+from rich import print
+
+from src.i18n.templates import get_pydantic_errors_code_templates
 
 
 def get_langs():

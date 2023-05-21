@@ -1,5 +1,6 @@
-import pytest
 import pydantic
+import pytest
+
 from src import i18n
 from src.i18n.locales.zh_cn import translations as translations_zh_cn
 
@@ -50,7 +51,7 @@ def test_extra_trans():
 
 
 def test_templates():
-    from src.i18n.locales.templates import show_templates
+    from src.i18n.templates import show_templates
 
     show_templates()
 

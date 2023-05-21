@@ -10,6 +10,7 @@ dependencies = [
     "pydantic>=1.10.7",
     "pytest>=7.3.1",
     "rich>=13.3.5",
+    "bullet>=2.2.0",
 ]
 requires-python = ">=3.11"
 readme = "README.md"
@@ -27,4 +28,11 @@ dev = [
     "pygoogletranslation>=2.0.6",
     "googletrans==4.0.0-rc1",
     "pytest-cov>=4.0.0",
+    "pre-commit>=3.3.2",
+    "tox-pdm>=0.6.1",
+]
+
+[tool.coverage.run]
+omit = [
+    "src/i18n/__main__.py",
 ]
