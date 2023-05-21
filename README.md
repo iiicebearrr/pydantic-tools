@@ -6,7 +6,7 @@ A set of tools for pydantic(i18n, alias, etc.)
 
 ## i18n
 
-### An simple example
+### A simple example
 
 ```python
 from pydantic_tools import i18n
@@ -34,6 +34,6 @@ age
 
 - `locale_strict`: Whether to raise an error when the locale is not found, default is `False`.
 
-- `translations`: If specified, the error messages will be translated according to the given dict instead of the locale config. The dict should be like `{"en": {"value_error.missing": "Missing"}}`. One of `locale` and `translations` should be specified, do not set both of them.
+- `translations`: If specified, the error messages will be translated according to the given dict instead of the locale config. The dict should be like `{"value_error.missing": "Missing"}`. One of `locale` and `translations` should be specified, do not set both of them.
 
 - `extra_translations`: If specified, an extra dict will be merged into the default translations. The dict should be like `{"value_error.missing": "some msg"}`.
