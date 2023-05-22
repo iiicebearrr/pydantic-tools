@@ -4,6 +4,10 @@
 
 A set of tools for pydantic(i18n, alias, etc.)
 
+## Installation
+
+`pip install pydantic-tools`
+
 ## i18n
 
 ### A simple example
