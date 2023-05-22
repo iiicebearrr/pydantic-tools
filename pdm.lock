@@ -463,7 +463,7 @@ dependencies = [
 lock_version = "4.2"
 cross_platform = true
 groups = ["default", "dev"]
-content_hash = "sha256:5ed0a52c4f300aa11d9aca13dfdcea2d2e8bffbc27c56ac38615b35b6d28f2d9"
+content_hash = "sha256:09cfd00c08aec312376cdc3b63ab122cdaf61d73126aa9629704c18564eb37aa"
 
 [metadata.files]
 "autoflake 2.1.1" = [
