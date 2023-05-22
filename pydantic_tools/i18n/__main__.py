@@ -39,9 +39,15 @@ cli = Bullet(
 
 
 @click.command()
-@click.option("-l", "--list-locales", is_flag=True, help="List available locales")
-@click.option("-t", "--show-templates", is_flag=True, help="Show templates")
-def main(list_locales: bool, show_templates: bool):
+@click.option("-l", "--list_locales", is_flag=True, help="List available locales")
+@click.option("-t", "--show_templates", is_flag=True, help="Show templates")
+@click.option(
+    "-g",
+    "--generate_templates",
+    is_flag=True,
+    help="Generate locales using translation engine",
+)
+def main(list_locales: bool, show_templates: bool, generate_templates: bool):
     if show_templates:
         locale_to_show = cli.launch()
         t = table.Table("Code", "Msg template", title=f"Templates for {locale_to_show}")
@@ -52,6 +58,10 @@ def main(list_locales: bool, show_templates: bool):
     if list_locales:
         for idx, _locale in enumerate(locale_trans):
             print(f"[light_green bold]  {idx + 1}: \[{_locale}]")
+        exit(0)
+
+    if generate_templates:
+        pass
 
 
 if __name__ == "__main__":
