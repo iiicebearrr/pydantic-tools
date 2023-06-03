@@ -1,10 +1,12 @@
 # pydantic-tools
 
-[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev) [![codecov](https://codecov.io/gh/iiicebearrr/pydantic-tools/branch/main/graph/badge.svg?token=SBVE7WNDO9)](https://codecov.io/gh/iiicebearrr/pydantic-tools)
+[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev) [![codecov](https://codecov.io/gh/iiicebearrr/pydantic-tools/branch/main/graph/badge.svg?token=SBVE7WNDO9)](https://codecov.io/gh/iiicebearrr/pydantic-tools) 
+
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 
 
-A set of tools for pydantic(i18n, alias, etc.)
+A set of tools for pydantic(i18n, alias(comming soon), etc.)
 
 ## Installation
 
@@ -43,3 +45,7 @@ age
 - `translations`: If specified, the error messages will be translated according to the given dict instead of the locale config. The dict should be like `{"value_error.missing": "Missing"}`. One of `locale` and `translations` should be specified, do not set both of them.
 
 - `extra_translations`: If specified, an extra dict will be merged into the default translations. The dict should be like `{"value_error.missing": "some msg"}`.
+
+
+## alias
+
