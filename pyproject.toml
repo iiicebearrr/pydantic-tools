@@ -1,7 +1,7 @@
 
 [project]
 name = "pydantic_tools"
-version = "0.3.1"
+version = "0.3.2"
 description = "Useful tools for pydantic"
 authors = [
     {name = "icebear", email = "iiiicebeaaaar@gmail.com"},
