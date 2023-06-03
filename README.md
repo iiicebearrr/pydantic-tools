@@ -1,8 +1,8 @@
 # pydantic-tools
 
-[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
+[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev) [![codecov](https://codecov.io/gh/iiicebearrr/pydantic-tools/branch/main/graph/badge.svg?token=SBVE7WNDO9)](https://codecov.io/gh/iiicebearrr/pydantic-tools)
 
-[![codecov](https://codecov.io/gh/iiicebearrr/pydantic-tools/branch/main/graph/badge.svg?token=SBVE7WNDO9)](https://codecov.io/gh/iiicebearrr/pydantic-tools)
+
 
 A set of tools for pydantic(i18n, alias, etc.)
 
