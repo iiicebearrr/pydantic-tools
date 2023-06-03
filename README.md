@@ -47,5 +47,18 @@ age
 - `extra_translations`: If specified, an extra dict will be merged into the default translations. The dict should be like `{"value_error.missing": "some msg"}`.
 
 
+### Show all available locales
+
+```shell
+python -m pydantic_tools.i18n -l
+```
+
+### Show all available translations
+
+```shell  
+python -m pydantic_tools.i18n -t
+```
+
 ## alias
 
+Comming soon
