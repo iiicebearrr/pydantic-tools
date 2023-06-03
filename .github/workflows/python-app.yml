@@ -37,19 +37,11 @@ jobs:
         pdm run pytest --cov=pydantic_tools/ --cov-report xml
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v3
+    
+    - name: Build for distribution
+      run: pdm build 
 
-  pypi-publish:
-    name: pypi-publish
-    runs-on: ubuntu-latest
-    environment:
-      name: pypi
-      url: https://pypi.org/p/pydantic-tools
-    permissions:
-      id-token: write  # IMPORTANT: this permission is mandatory for trusted publishing
-    steps:
-    # retrieve your distributions here
-
-    - name: Publish package distributions to PyPI
+    - name: Upload to pypi
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
         user: ${{ secrets.PYPI_USER }}
