@@ -3,7 +3,7 @@
         "redjue.git-commit-plugin",
         "github.copilot",
         "magicstack.magicpython",
-        "ms-python.python",
-        "ms-python.black-formatter"
+        "ms-python.black-formatter",
+        "github.copilot-nightly"
     ]
 }

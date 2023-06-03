@@ -35,5 +35,6 @@ dev = [
 
 [tool.coverage.run]
 omit = [
-    "src/i18n/__main__.py",
+    "pydantic_tools/i18n/__main__.py",
+    "pydantic_tools/alias/*"
 ]

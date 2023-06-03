@@ -1,6 +1,5 @@
 from pygoogletranslation import Translator
 from rich import print
-
 from src.i18n.templates import get_pydantic_errors_code_templates
 
 

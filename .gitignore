@@ -6,3 +6,6 @@ __pycache__/
 .pdm-python
 __pypackages__/
 .pytest_cache/
+.coverage
+htmlcov/
+.coverage
