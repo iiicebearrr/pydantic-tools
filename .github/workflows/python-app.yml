@@ -39,7 +39,7 @@ jobs:
       uses: codecov/codecov-action@v3
 
   pypi-publish:
-    name: Upload release to PyPI
+    name: pypi-publish
     runs-on: ubuntu-latest
     environment:
       name: pypi
@@ -51,4 +51,7 @@ jobs:
 
     - name: Publish package distributions to PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        user: ${{ secrets.PYPI_USER }}
+        password: ${{ secrets.PYPI_PASSWD }}
       
